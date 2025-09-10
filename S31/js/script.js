@@ -3,7 +3,9 @@
 // indique si este numero es par o no.
 
 let numero = parseInt(prompt("Ingresa un número entero:"));
+let num2 = parseFloat(prompt("Ingresa otro número"));
 
+console.log(`${num1} + ${num1} = ${num1 + num2}`);
 if (isNaN(numero)) {
     console.log("Eso no es un número válido.");
 } else if (numero % 2 === 0) {
